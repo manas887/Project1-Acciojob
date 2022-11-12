@@ -1,0 +1,68 @@
+.navbar {
+    background-color: rgb(10, 1, 1);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 4px;
+    border-radius: 10px;
+}
+
+.menu {
+    display: inline-block;
+    padding: 3px 3px;
+    margin: 5px 12px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: bisque;
+}
+
+.search {
+    float: right;
+    color: white;
+    margin: 5px;
+    padding: 2px 4px;
+}
+
+.navbar input {
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+    margin: 5px;
+}
+
+.programming {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.text {
+    float: left;
+}
+
+.img {
+    float: right;
+    margin-top: 18px;
+}
+
+.button{
+    background-color: beige;
+    padding: 3px;
+    position: relative;
+    bottom: 18px;
+    left: 11px;
+    border-radius: 5px;
+}
